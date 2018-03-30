@@ -6,6 +6,10 @@ To test this application, you will need to preform the following commands.
 1. Download or Clone the repository to your local machine
 2. After `cd`ing to the folder we just downloaded, run the `npm install` command.
 3. Finally, run `npm start` then visit `localhost:3000` in your Browser.
+    
+    ### Using `forever` package
+    1. Install `forever` using `npm install forever -g`
+    2. Run `forever start -c "npm start" ./`
 
 ## UI Status
 - [ ] Artifact View Page
