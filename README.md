@@ -1,5 +1,5 @@
-# Alexandria Browser React
-A rebuild of the Alexandria Browser from the ground up using React & Bootstrap 4.
+# 3DRM Browser React
+Based off the rebuild of the Alexandria Browser from the ground up using React & Bootstrap 4.
 
 ## Usage
 To test this application, you will need to preform the following commands.
