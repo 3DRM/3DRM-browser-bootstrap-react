@@ -13,4 +13,8 @@ To test this application, you will need to preform the following commands.
 
 3. Finally, run `npm run start:prod` then visit `localhost:9156` in your Browser.
 
+    ### Using `forever` package
+    1. Install `forever` using `npm install forever -g`
+    2. Run `forever start -c "npm start" ./`
+
    To run the server in **development** mode, run the command `npm run start:dev` instead of the command above.
