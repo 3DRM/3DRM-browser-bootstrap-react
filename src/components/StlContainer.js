@@ -10,13 +10,13 @@ class STLContainer extends Component {
 
 		return (
 			<div>
-				<h1>STL CONTAINER</h1>
+				<h1>3D MODEL CONTAINER</h1>
 			</div>
 		);
 	}
 }
 
-STLContainer.SUPPORTED_FILE_TYPES = ["stl"];
+STLContainer.SUPPORTED_FILE_TYPES = ["stl", "obj", "step", "3mf"];
 //@ToDo: build STLContainer and add prop-types
 
 export default STLContainer;
