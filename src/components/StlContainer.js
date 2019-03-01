@@ -16,7 +16,7 @@ class STLContainer extends Component {
 	}
 }
 
-STLContainer.SUPPORTED_FILE_TYPES = ["stl"];
+STLContainer.SUPPORTED_FILE_TYPES = ["stl", "obj", "step", "3mf"];
 //@ToDo: build STLContainer and add prop-types
 
 export default STLContainer;
