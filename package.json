@@ -2,6 +2,7 @@
   "name": "oip-platform-react",
   "homepage": "https://oip.wiki",
   "author": "Sky Young <sky@alexandria.io>",
+  "homepage": "https://3drm.github.io/3DRM-browser-bootstrap-react/",
   "version": "1.0.0",
   "dependencies": {
     "@appbaseio/reactivesearch": "^2.6.12",
