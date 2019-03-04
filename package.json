@@ -6,8 +6,9 @@
   "version": "1.0.0",
   "dependencies": {
     "@appbaseio/reactivesearch": "^2.6.12",
-    "@babel/core": "^7.0.0-beta.55",
-    "@babel/preset-env": "^7.0.0-beta.55",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
     "@dicebear/avatars": "^2.0.2",
     "@dicebear/avatars-female-sprites": "^1.0.3",
     "@dicebear/avatars-male-sprites": "^1.0.3",
