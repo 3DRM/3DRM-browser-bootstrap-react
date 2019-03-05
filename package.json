@@ -2,7 +2,6 @@
   "name": "oip-platform-react",
   "homepage": "https://oip.wiki",
   "author": "Sky Young <sky@alexandria.io>",
-  "homepage": "https://3drm.github.io/3DRM-browser-bootstrap-react/",
   "version": "1.0.0",
   "dependencies": {
     "@appbaseio/reactivesearch": "^2.6.12",
@@ -16,14 +15,13 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "7.2.3",
-    "babel-jest": "20.0.3",
+    "babel-jest": "^24.1.0",
     "babel-loader": "7.0.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-decorators": "^6.24.1",
     "babel-plugin-transform-react-constant-elements": "^6.23.0",
     "babel-plugin-transform-react-inline-elements": "^6.22.0",
     "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
     "babel-runtime": "6.23.0",
     "bootstrap": "^4.1.1",
     "case-sensitive-paths-webpack-plugin": "2.1.1",
@@ -44,7 +42,7 @@
     "gh-pages": "^2.0.1",
     "history": "^4.7.2",
     "identicon.js": "^2.3.1",
-    "jest": "20.0.4",
+    "jest": "^24.1.0",
     "jquery": "^3.2.1",
     "js-file-download": "^0.4.1",
     "moment": "^2.18.1",
@@ -84,7 +82,7 @@
     "redux-thunk": "^2.2.0",
     "style-loader": "0.18.2",
     "sw-precache-webpack-plugin": "0.11.3",
-    "url-loader": "0.5.9",
+    "url-loader": "^1.1.2",
     "validator": "^9.1.1",
     "video.js": "^6.2.7",
     "wavesurfer.js": "^1.4.0",
@@ -99,9 +97,7 @@
     "preins": "mv node_modules/oip-index/ oip-index/",
     "postins": "mv oip-index/ node_modules/oip-index/",
     "storybook": "start-storybook -p 9000 -c .storybook",
-    "build-storybook": "build-storybook",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build-storybook": "build-storybook"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -145,6 +141,8 @@
   },
   "devDependencies": {
     "@storybook/react": "^4.0.0-alpha.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "clean-webpack-plugin": "^0.1.19",
     "html-webpack-plugin": "^3.2.0",

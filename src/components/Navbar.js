@@ -10,7 +10,7 @@ import UserNav from './UserNav'
 
 import { logoutAction } from '../actions/User/actions'
 
-import LogoImg from '../assets/img/oip-wordmark-and-logo.png';
+import LogoImg from '../assets/img/3drm-logo.png';
 
 class Navbar extends Component {
     constructor(props) {
