@@ -6,7 +6,7 @@ To test this application, you will need to preform the following commands.
 1. Clone the repository to your local machine
 
    ```
-   git clone https://github.com/oipwg/oip-platform-react
+   git clone https://github.com/3DRM/3drm-platform-react
    ```
 
 2. After `cd`ing to the folder we just downloaded, run the `npm install` command.
