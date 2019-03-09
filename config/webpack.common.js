@@ -7,7 +7,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
-            title: 'oip-platform-react',
+            title: '3drm-platform-react',
             template: "public/index.html",
             filename: 'index.html'
         })
