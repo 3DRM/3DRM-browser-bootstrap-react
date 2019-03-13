@@ -99,9 +99,7 @@
     "preins": "mv node_modules/oip-index/ oip-index/",
     "postins": "mv oip-index/ node_modules/oip-index/",
     "storybook": "start-storybook -p 9000 -c .storybook",
-    "build-storybook": "build-storybook",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build-storybook": "build-storybook"
   },
   "jest": {
     "collectCoverageFrom": [
