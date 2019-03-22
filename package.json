@@ -156,6 +156,8 @@
   "peerDependencies": {
         "webpack": "^4.4.0",
         "ajv": ">=5.0.0",
-        "react": "^15.3.1"
+        "react": "^15.3.1",
+        "acorn": "^6.0.0",
+        "webpack": "^2.2.0"
     }
 }
