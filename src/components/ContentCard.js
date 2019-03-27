@@ -39,7 +39,7 @@ const ContentCard = (props) => {
         <div className={styleContentCard}>
             <Link to={"/" + txid.substring(0,6) } onClick={scrollToTop} className="" title={title} >
                 <div className="card-img-top content-card-img">
-                    <img src={"http://thumbs.oip.fun/artifact/" + txid.substr(0,6)} alt="" style={{width: "inherit"}} />
+                    <img src={"http://3drm.fun/artifact/" + txid.substr(0,6)} alt="" style={{width: "inherit"}} />
                     <button className="btn btn-outline-light border-0 card-media-type m-1"><ArtifactIcon artifact={artifact} /></button>
                     {duration ? <span className="content-card-xinfo m-1 "><FormattedTime numSeconds={duration} /></span> : null}
                 </div>
